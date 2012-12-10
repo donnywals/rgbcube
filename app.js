@@ -20,6 +20,7 @@ $(document).ready(function(){
             y: "b"
         }
     });
+    
     fillCubeFace(cBottom, {
         colors: {
             r: 0,
@@ -74,8 +75,11 @@ $(document).ready(function(){
 
 function fillCubeFace(c, options) {
     for(var i = 0; i<255; i++) {
+    
         options.colors[options.axis.x] = i;
+        
         for(var j = 0; j<255; j++) {
+        
             options.colors[options.axis.y] = j;
             c.fillStyle = "rgb("+options.colors.r+", "+options.colors.g+", "+options.colors.b+")";
             c.fillRect(i, j, 10, 10);

@@ -32,32 +32,26 @@ canvas {
 
 #cube-left {
     -webkit-transform: rotateX(90deg) rotateY(270deg) rotateZ(0deg) translateX(127px) translateY(0px) translateZ(127px);
-    z-index: 1;
 }
 
 #cube-bottom {
     -webkit-transform: rotateX(90deg);
-    z-index: 0;
 }
 
 #cube-right {
     -webkit-transform: rotateX(90deg) rotateY(270deg) rotateZ(0deg) translateX(127px) translateY(0px) translateZ(-127px);
-    z-index: 2;
 }
 
 #cube-top {
     -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(254px);
-    z-index: 2;
 }
 
 #cube-front {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg) translateX(127px) translateY(0px) translateZ(-127px);
-    z-index: 3;
 }
 
 #cube-back {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg) translateX(127px) translateY(0px) translateZ(127px);
-    z-index: 0;
 }
 
 html, body {padding: 0; margin: 0;}
